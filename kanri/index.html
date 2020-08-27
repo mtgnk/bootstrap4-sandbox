@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ドキュメント</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<style>
+  .header {
+    height :10vh
+  }
+  .main-area {
+    height :90vh;
+    width: 70vw;
+  }
+  .sidebar {
+    width: 20vw;
+  }
+  .black-gray {
+    background-color: #AAA;
+  }  
+
+  .dark-gray {
+    background-color: #CCC;
+  }
+  .thin-gray {
+    background-color: #EEE;
+  }
+  .center {
+    text-align: center;
+  }
+
+</style>
+<body>
+  <div>
+    <div class="container">
+      <div class="header black-gray center">
+        ここはヘッダーですよ
+      </div>
+      <div class="main d-flex justify-content-center">
+        <div class="sidebar dark-gray">
+          <ul>
+            <li ><span class="side-menu">サイドA</span></li>
+            <li ><span class="side-menu">サイドB</span></li>
+            <li ><span class="side-menu">サイドC</span></li>
+            <li ><span class="side-menu">サイドD</span></li>
+            <li ><span class="side-menu">サイドE</span></li>
+          </ul>
+        </div>
+        <div class="main-area thin-gray flex-grow-1">
+          <h1>Portfolio</h1>
+          <div>
+            メインエリア
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
